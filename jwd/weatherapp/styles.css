@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+.wrapper {
+    padding-top :80px;
+    justify-content: center;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+
+}
+
+.card-body {
+
+    text-align: center;
+    box-shadow: 0px 15px 15px 8px rgba(0,0,0,0.5);
+    background-color: blue;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+
+}
+
+.card-title {
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+
+
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-position:top center;
+    background-color:#ddd ;
+
+
+}
+
+.app-wrap {
+
+display:flex;
+flex-direction: column;
+min-height: 100vh;
+
+}
+
+header {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding: 50px 15px 15px;
+
+}
+
+header input {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border:none;
+    outline:none;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 16px 0px 16px 0px;
+    color:wheat;
+    border-bottom: 3px solid blanchedalmond;
+    font-size: 20px;
+    font-weight: 100;
+    transition: 0.2s ease-out;
+}
+
+header input:focus {
+    background-color: rgba(20, 16, 16, 0.014);
+}
+
+main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    text-align:center;
+}
+
+.location .city{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight:500;
+    margin-bottom:5px;
+}
+.location .date {
+    color: #ffffff;
+    font-size: 16px;
+}
+.current .temp {
+color: #ffffff;
+font-size: 110px;
+font-weight:900;
+margin: 10px 0px;
+text-shadow: 2px 20px rgba(0,0,0,0.5);
+padding:0px;
+
+}
+
+.current .temp span {
+    font-weight:700;
+}
+
+.current .weathercon {
+    color: #FFF;
+    font-size: 42px;
+    font-weight:700;
+    font-style:bold;
+    margin-bottom: 15px;
+    text-shadow: 0px 3px rgba(0,0,0,0.4);
+}
+
+.current .hilow {
+    color:#FFF;
+    font-size: 24px;
+    font-weight:500;
+    text-shadow:0px 4px rgba(0, 0, 0, 0.4);
+
+}
+
+.current .desc {
+    color:#FFF;
+    font-size: 24px;
+    font-weight:500;
+    text-shadow:0px 4px rgba(0, 0, 0, 0.4);
+    text-transform:capitalize;
+
+}
+
+
+.container {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+  
+      
+}
+
+.weather-icon {
+
+    padding:0px;
+
+
+}

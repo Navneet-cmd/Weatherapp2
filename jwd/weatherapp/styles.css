@@ -3,14 +3,16 @@
     padding:0;
     box-sizing:border-box;
 
+
+
 }
 
 .wrapper {
     padding-top :80px;
     justify-content: center;
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px; 
 
 }
 
@@ -19,10 +21,10 @@
     text-align: center;
     box-shadow: 0px 15px 15px 8px rgba(0,0,0,0.5);
     background-color: blue;
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
-
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px; 
+ 
 }
 
 .card-title {
@@ -43,13 +45,7 @@ body {
 
 }
 
-.app-wrap {
 
-display:flex;
-flex-direction: column;
-min-height: 100vh;
-
-}
 
 header {
     display:flex;
@@ -65,9 +61,9 @@ header input {
     padding: 10px 15px;
     border:none;
     outline:none;
-    background-color: rgba(255,255,255,0.3);
+    background-color: black (255,255,255,0.3);
     border-radius: 16px 0px 16px 0px;
-    color:wheat;
+    color:white;
     border-bottom: 3px solid blanchedalmond;
     font-size: 20px;
     font-weight: 100;
@@ -93,7 +89,7 @@ main {
     font-weight:500;
     margin-bottom:5px;
 }
-.location .date {
+.location .actualDate{
     color: #ffffff;
     font-size: 16px;
 }
@@ -139,9 +135,9 @@ padding:0px;
 
 
 .container {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
   
       
 }
@@ -151,4 +147,12 @@ padding:0px;
     padding:0px;
 
 
+}
+
+.card-title {
+    color:#FFF;
+    font-size: 24px;
+    font-weight:500;
+    text-shadow:0px 4px rgba(0, 0, 0, 0.4);
+    text-transform:capitalize;
 }
